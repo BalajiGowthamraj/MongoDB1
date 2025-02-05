@@ -1,5 +1,0 @@
-CREATE TABLE mentors (
-    mentor_id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100),
-    mentee_count INT
-);

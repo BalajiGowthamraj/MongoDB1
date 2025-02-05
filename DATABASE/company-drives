@@ -1,5 +1,0 @@
-CREATE TABLE company_drives (
-    drive_id INT PRIMARY KEY AUTO_INCREMENT,
-    company_name VARCHAR(255),
-    drive_date DATE
-);

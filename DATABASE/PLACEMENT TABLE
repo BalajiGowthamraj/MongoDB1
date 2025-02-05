@@ -1,7 +1,0 @@
-CREATE TABLE placements (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    user_id INT,
-    drive_id INT,
-    FOREIGN KEY (user_id) REFERENCES users(user_id),
-    FOREIGN KEY (drive_id) REFERENCES company_drives(drive_id)
-);

@@ -1,9 +1,0 @@
-CREATE TABLE tasks (
-    task_id INT PRIMARY KEY AUTO_INCREMENT,
-    topic_id INT,
-    user_id INT,
-    task_status ENUM('Submitted', 'Not Submitted'),
-    date DATE,
-    FOREIGN KEY (topic_id) REFERENCES topics(topic_id),
-    FOREIGN KEY (user_id) REFERENCES users(user_id)
-);
